@@ -1,4 +1,4 @@
-const fs = require('fs')
+const fs = require('fs')-
 const chalk = require('chalk')
 const  { indonesia, english, spanyol} = require(`./language`)
 
@@ -13,8 +13,8 @@ global.APIKeys = {
 }
 
 // setting 
-global.autoread = false // auto read message
-global.autobio = false 
+global.autoread = true // auto read message
+global.autobio = true 
 global.userRegister = false 
 global.autoblok212 = false //ubah jadi true biar nmr 212 di blok sama bot
 
@@ -34,10 +34,10 @@ global.myweb2 = "https://instagram.com/leviatnansyah?igshid=YmMyMTA2M2Y=" //beba
 global.email = "leviadnansyahlevi@gmail.com" //bebas
 global.region = "Indonesia" //bebas
 global.timezone = 'Asia/Jakarta' //  timezone wib
-global.premium = ['6285172446692'] //premium user
-global.owner = ["6285172446692","6282131369002"] //ganti agar fitur owner bisa di gunakan
-global.ownernomer = "6282131369002" // nomor wa kalian
-global.ownernomerr = "6285172446692" //nmr wa kalian
+global.premium = ['6285722209804'] //premium user
+global.owner = ["6285722209804","6285722209804"] //ganti agar fitur owner bisa di gunakan
+global.ownernomer = "6285722209804" // nomor wa kalian
+global.ownernomerr = "6285722209804" //nmr wa kalian
 global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
 global.donasi = "./image/donasi.jpg" // foto donasi di folder image
 global.background_welcome="https://telegra.ph/file/90a931648de597820bc08.jpg" // maks size 30kb, agar welcome image nya tdk delay
